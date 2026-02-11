@@ -1,91 +1,108 @@
-# 👋 Welcome to Group08 - Bot vs Guardian: Simulating Content Moderation Arms Race on Social Platforms
-
-![Project Banner](https://img.shields.io/badge/rednote-Bot%20Detection-red)  
-> **Other Possible Titles:**  
-> - 🚀 *Simulating Social Bots: The Role of AI in Xiaohongshu’s Comment Ecosystem*  
-> - 🕵️‍♂️ *Manufacturing Trust: Coordinated Bot Interactions on Social Media*  
-> - 🤖 *Bot-Driven Credibility: Simulating Fake Endorsements on Xiaohongshu*  
-
-## 🔍 About the Project
-
-
-### ⚡ **Phenomenon of Interest**
-
-Automated bots engage in Xiaohongshu’s comment sections, promoting ads, counterfeit products, and even services like fortune-telling. These bots evolve rapidly, constantly adapting to moderation strategies, which leads to an **ongoing cat-and-mouse game** with platform security systems.
-
-### 🔑 **Key Dynamics We Explore**
-
-1. **Keyword-Based Information Extraction:**  
-   Bots detect sensitive keywords (e.g., *“shipping”*, *“logistics”*) to target specific posts.
-
-2. **Automated Advertising & Fake Engagement:**  
-   Bots create deceptive promotional content, sometimes posing as satisfied customers to boost credibility.
-
-3. **Coordinated Interaction for Credibility:**  
-   Bots engage in scripted conversations to create an illusion of organic, genuine discussions.
-
-4. **The Arms Race:**  
-   As moderation systems improve, bots adopt new evasion techniques:
-   - **Adversarial Content Generation:** Context-aware word substitutions (e.g., *"sh!pping"* → *"shipping"*)  
-   - **Dynamic Detection Evasion:** Using reinforcement learning to predict moderation updates  
-   - **Countermeasure Adaptation:** Moderation AIs employing graph-based detection and behavioral fingerprinting  
-   - **User-AI Symbiosis:** Human users inadvertently mimic bot-like patterns in their own behavior
+# 🏛️ Digital Media / Engineering Archives | YorkU
+> 一个存放本科课程项目、技术探索与思想碎片的数字档案馆。
+> 
+> **Lassonde School of Engineering, York University**
+> **B.A., Spec. Hons. Digital Media (Digital Media Development)** `(Applied 26JN)`
 
 ---
 
-## 👩‍💻 Team Members
+## 📜 档案馆序言：理性的废墟与重建
 
-- **Sylvia LING**  
-- **Saikoro CAO**  
-- **Jay CHEN**
 
-[**GitHub Repo URL →** *https://github.com/EECS4461/Group8*](https://github.com/EECS4461/Group8)
+这是一个存放**本科课程作业、技术 Fork 与实验性碎片**的数字仓库。
 
----
+这里的代码并不全是原创的荣光，更多是**妥协的产物**。
+这里记录了一个从**万物有灵人为主义**的童年好奇出发，在应试教育的**机械决定论**与古希腊**古典情怀**中撕裂，然后青春期撞上**量子力学与人择原理**的墙壁，如今在**LLM（大型语言模型）的概率统计**迷雾中，试图找回**那一抹自由意志与可靠的确定性**的个体的挣扎。
 
-## 🚀 How to Contribute
-
-We welcome contributions from the community! Here’s how you can get involved:
-
-1. **Fork** this repository  
-2. **Clone** it to your local machine  
-3. **Create a new branch** for your feature or fix  
-4. **Submit a pull request** with a clear description of your changes
-
-💡 **Issues?** Feel free to open one if you spot a bug or have an idea for improvement.
+### 🧠 DATT 误半生，归来还是 CGI
+中学时代CPhO的物理直觉与解释给了我擅长数学的幻梦错觉，曾在 JLU 数院为“推导证明却无意义”的定理公式所煎熬，**渴望理解世界的结构，却被要求训练计算的技巧，在证明的抽象海洋中溺亡**。
+商科两年碰上了区块链的浴巾香狂热,尽管挖矿+做空的对冲操作在矿潮中没有收到显卡涨价的影响，但也认识到自己是多么难以抵抗人性的弱点。最终遁入数字媒体，却暮然发现那里的“创意”常是浮于表面的视觉堆砌。
+* ** Year 1：沉迷 `Linux/C` 的指针操作，`Java Advanced OOP` 的严谨架构，以及 `Discrete Math`和`Linear Algebra` 的完美逻辑。一个快乐的“做题家”相信 Input 必有确定的 Output。
+* ** Year 2：崩塌与逃离**：试图跨越到图形与音视的深水区。`EECS 3431` (3D Computer Graphics)、`DATT 2500` (3D Modeling) 和 `EECS 4462` (Digital Audio/JUCE) 的复杂性让我意识到单纯的逻辑无法驾驭混沌的感官世界。** `DATT2050`和`DATT2300`的`MAX/MSP/Jitter`和`Unreal`的意大利面连线更是让我对熵增投降**
+* **Year 3-4：生存主义**：`EECS 4443` (Mobile UI) 变成了基于旧版本 Android App 的缝缝补补；`EECS 4461` (Hypermedia) 的 `Mesa` Agent-Based Modeling (ABM) 至今仍让我云里雾里。
+* **现状**：代码是 AI 生成的，底层是 Fork 别人的。但我依然在**经验主义（Empiricism）**与**理性主义（Rationalism）**的夹缝中，试图理清哪怕一条逻辑管线。
 
 ---
 
-## 📚 References
+## 📂 仓库导览 (The Manifest)
 
-- Himelein-Wachowiak, M., Giorgi, S., Devoto, A., Rahman, M., Ungar, L., Schwartz, H. A., Epstein, D. H., Leggio, L., & Curtis, B. (2021). *Bots and Misinformation on Social Media: A Study of Automated Behavior and Its Impact on Public Discourse.*
-> Demonstrates pattern recognition in bot-driven misinformation campaigns
 
-- Mena, P., Barbe, D., & Chan-Olmsted, S. (2020). *Misinformation on Instagram: The impact of trusted endorsements on message credibility.*
-> Presents GAN-based approaches for detection-evasion simulation
+### 🏛️ 1. 古典时代的荣光 (The Foundations)
+*“做题家”最后的尊严，关于底层逻辑与数学。*
 
-- Zhang, Y., Song, W., Koura, Y. H., & Su, Y. (2023). *Social Bots and information propagation in social networks: Simulating cooperative and competitive interaction dynamics.*
-> Models multi-agent adversarial dynamics in social networks
+* **[DATT3700](https://github.com/dattodigm/DATT3700)**：**Collaborative Project** (Current)。
+    * *状态*：正在进行。
+    * *说明*：一边搞ESP32的物理计算控制 3D 打印花朵和闪烁 LED ，一面用 **CV（计算机视觉）+ 状态机 + 逻辑管线 + ML** 创造花朵的AI个性。
+    * *核心*：试图用 Python/OpenCV 构建一个**非线性拟合的交互逻辑**，并且通过对马达电机传感器的精确调教来探索未来人机交互的范式。
+      
+* **[1ZLAB_Face_Track_Robot](https://github.com/你的组织名/1ZLAB_Face_Track_Robot)**：
+    * *性质*：**Fork**。
+    * *说明*：OpenCV 人脸追踪云台。这才是物理计算该有的样子：PID 控制算法与视觉反馈的闭环。
+
+### 🏗️ 2. 巨人的肩膀 (Forks & Mods)
+*承认吧，重新发明轮子没有意义。*
+
+* **[YnamarEngine](https://github.com/dattodigm/YnamarEngine)**：
+    * *性质*：**Fork**。
+    * *说明*：受 Elysium 引擎启发的 2D MMO 引擎。我想看看真正的游戏服务器架构长什么样，而不是自己从零写一个只能跑一帧的 Demo。
+* **[vjepa2](https://github.com/dattodigm/vjepa2)**：
+    * *性质*：**Fork**。
+    * *说明*：世界模型派宗师 Le Cun 离开 Meta 前发布的视频自监督学习模型。 关注前沿 CV 技术，试图理解机器如何“看见”。
+
+
+### 🌫️ 3. 混沌地带 (The Struggle)
+*那些让我怀疑人生、Drop 掉、或者糊弄过去的课程遗产。*
+
+* **[DATT3933 - Climate Futures Lab](https://github.com/dattodigm/DATT3933)**：
+    * *课程*：DATT3933* Climate Futures Lab
+    * *项目*：**ECO** (Unity)。
+    * *说明*：一个关于气候未来的环境叙事。没能搞清空间音频混响，只是抽象了对话系统 UI 和 响应式的手柄震动反馈，单纯为了交作业而存在的 Unity 场景堆叠。
+* **[Group8 / mesa-examples](https://github.com/dattodigm/Group8)**：
+    * *课程*：EECS 4461 Hypermedia and Multimedia Technology。
+    * *说明*：Agent-Based Modeling。说实话，直到结课我也没完全搞懂那些 Agent 涌现出的宏观行为到底算不算伪科学，Python 生态的版本差异更是依赖地狱。
+* **[Digital Audio / JUCE](https://github.com/dattodigm/EECS4462)**：
+  * *课程*：EECS 4462 Digtal Audio。
+    * *说明*：在 JUCE 的 C++ 框架和 Unity 的音频中间件之间反复横跳，最后发现我还是更喜欢写纯算法而不是摆弄拖拽。
+
 ---
 
-## 🎯 Goals for the Project
+## 💭 技术哲学：关于 AI 与 边界
 
-- ✅ Simulate bot behaviors and moderation strategies on Xiaohongshu  
-- ✅ Analyze how bots evolve to bypass content moderation  
-- ✅ Model the feedback loop between bot evolution and detection algorithm upgrades  
-- ✅ Provide insights into the effectiveness of current moderation techniques  
+> "Empiricism says: The data (LLM) is the truth.
+> Rationalism says: The logic (Code) is the truth."
 
+我现在的开发模式很矛盾：
+1.  **我依赖 AI**：Gemini 和 Claude 是我的双手，帮我写那些我懒得查文档的 API 调用。
+2.  **我怀疑 AI**：我厌恶 LLM 那种“基于概率的模糊正确”。对于一个从 **Linux/C** 走出来的人来说，**代码必须是确定性的**。
+
+我在做项目时（比如 DATT3700），最大的执念就是**Logic Pipeline & Sensing**。
+我不关心外壳多漂亮，我只关心：
+* 摄像头捕捉到的数据是否准确？
+* 传感器计算的向量方向是否在数学上成立？
+* 状态机的转换是否是原子的、不可打断的？
+
+**这就是这个 Organization 的意义：**
+它是一堆被 AI 生成的代码包裹着的、试图寻找**逻辑确定性**的内核。
+
+### 💡 我的信仰：**在 AI 的幻觉时代，做“真实”的造物主**
+当整个行业在用 LLM 生成“糖水片”、用 RLHF 精准投喂人类多巴胺时，我选择：
+- **拒绝“拟真”**，追求“可控”；
+- **拒绝“模仿”**，追求“推导”；
+- **拒绝“展示”**，追求“构建”。
+我不做“AI 的奴仆”，  
+我做**AI 的牧羊人**。
+> 我的“作品”不是一张图、一段视频，  
+> 是一个**系统**：  
+> 一个能自动把你的 Prompt 转成可部署资产的 Pipeline，  
+> 一个能感知你指尖微动的 Haptic 界面，  
+> 一个在服务器上默默跑着、从不抱怨的脚本。
 ---
 
-## ⚡ Fun Fact
+### 🔧 Tech Stack (The Real Version)
 
-Did you know?  
-Bots on social media can sometimes **mimic human behavior better than real users**—but they still can't decide what to eat for breakfast. 🥐☕  
-
----
-
-## 📢 Stay Connected
-
-For updates, follow this repo and check out our commits regularly. We’re excited to share our progress and findings!
+* **Languages**: Python (Production), C/C++ (Nostalgia), Java (Exam mode).
+* **Tools**: Arduino/ESP32 (Physical Logic), OpenCV (Vision), Unity (Necessary Evil).
+* **Methodology**: `Ctrl+C` / `Ctrl+V` (StackOverflow) -> `Prompt Engineering` (ChatGPT) -> **Rigorous Logic Debugging** (Myself).
 
 ---
+*Last Updated: 2026. Living in the gap between Mechanical Determinism and Statistical Probability.*
